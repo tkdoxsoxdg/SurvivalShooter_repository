@@ -126,6 +126,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraFllow.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
@@ -148,8 +149,7 @@
     <Compile Include="Assets\_Complete-Game\SampleAssets\Effects\ImageEffects\Scripts\TiltShift.cs" />
     <Compile Include="Assets\_Complete-Game\SampleAssets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\_Complete-Game\Scripts\Audio\MixLevels.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\Camera\CameraFllow.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\Camera\Done\CameraFollow.cs" />
+    <Compile Include="Assets\_Complete-Game\Scripts\Camera\CameraFollow.cs" />
     <Compile Include="Assets\_Complete-Game\Scripts\Enemy\EnemyAttack.cs" />
     <Compile Include="Assets\_Complete-Game\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\_Complete-Game\Scripts\Enemy\EnemyMovement.cs" />
