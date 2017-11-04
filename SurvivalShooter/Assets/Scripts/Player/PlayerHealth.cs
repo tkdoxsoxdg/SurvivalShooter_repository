@@ -41,6 +41,9 @@ public class PlayerHealth : MonoBehaviour
         }
         else
         {
+            /*Color.Lerp→Color Lerp(Color a, Color b, float t); t→aからbの色の変化をフレームごとに変化するように設定。
+             * 今回はHP 0→HPフルまでの色の遷移を設定している。
+             */
             damageImage.color = Color.Lerp (damageImage.color, Color.clear, flashSpeed * Time.deltaTime);
         }
         damaged = false;
