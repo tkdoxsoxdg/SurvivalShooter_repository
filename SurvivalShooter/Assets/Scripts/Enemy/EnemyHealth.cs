@@ -21,7 +21,7 @@ public class EnemyHealth : MonoBehaviour
     {
         anim = GetComponent <Animator> ();
         enemyAudio = GetComponent <AudioSource> ();
-        hitParticles = GetComponentInChildren <ParticleSystem> ();
+        hitParticles = GetComponentInChildren <ParticleSystem> (); //GetComponentInChildren-->子についているコンポーネントの呼び出し
         capsuleCollider = GetComponent <CapsuleCollider> ();
 
         currentHealth = startingHealth;
@@ -74,7 +74,7 @@ public class EnemyHealth : MonoBehaviour
         GetComponent <UnityEngine.AI.NavMeshAgent> ().enabled = false;
         GetComponent <Rigidbody> ().isKinematic = true;
         isSinking = true;
-        //ScoreManager.score += scoreValue;
+        ScoreManager.score += scoreValue;
         Destroy (gameObject, 2f);
     }
 }
