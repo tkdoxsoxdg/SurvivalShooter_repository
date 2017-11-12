@@ -22,7 +22,7 @@ public class CameraFllow : MonoBehaviour{
         /* カメラ追従の設定。
          * 始点（プレイヤーの位置）から終点（カメラポジション）まで
          * 1フレーム毎の時間（Time.deltaTime）経過による、カメラの動き。
-         * 係数を上げると終点に近づく。
+         * 係数を上げるとplayerに近づく。
          */
         transform.position = Vector3.Lerp(transform.position, targetCamPos, smoothing * Time.deltaTime);
 
